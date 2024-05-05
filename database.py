@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 # Database URL
-URL_DATABASE='mysql+pymysql://root:@localhost:3306/ecomApp'
+URL_DATABASE='mysql+pymysql://root:@localhost:3306/productapp'
 
 # Create the SQLAlchemy engine
 engine=create_engine(URL_DATABASE)
