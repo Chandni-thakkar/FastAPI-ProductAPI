@@ -36,13 +36,17 @@ This project is a FastAPI application that provides endpoints to manage products
   uvicorn main:app --reload
 
 5.Access the API at http://localhost:8000/docs and authenticate using the provided endpoints.
+
 API Endpoints:
-  1.POST /auth/token: Get a JWT token for authentication
-  2.POST /products/: Create a new product
-  3.GET /products/: Retrieve all products
-  4.GET /products/{product_id}: Retrieve a specific product
-  5.PUT /products/{product_id}: Update a product
-  6.DELETE /products/{product_id}: Delete a product
+ # API Endpoints
+
+- **POST /auth/token:** Get a JWT token for authentication
+- **POST /products/:** Create a new product
+- **GET /products/:** Retrieve all products
+- **GET /products/{product_id}:** Retrieve a specific product
+- **PUT /products/{product_id}:** Update a product
+- **DELETE /products/{product_id}:** Delete a product
+
 
 6.Authentication
 To authenticate, use the /auth/token endpoint with a valid username and password. Include the token in the Authorization header for other endpoints.
