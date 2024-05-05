@@ -22,7 +22,7 @@ This project is a FastAPI application that provides endpoints to manage products
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Chandni-thakkar/FastAPI-ProductAPI.git
    
 2.install dependencies:
 
